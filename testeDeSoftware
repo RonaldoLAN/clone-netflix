@@ -1,0 +1,112 @@
+Teste de Software para o Projeto Clone do Netflix
+Para garantir que o clone do Netflix funcione corretamente, é importante realizar uma série de testes abrangentes. Abaixo está uma estratégia de teste detalhada, incluindo diferentes tipos de testes que devem ser realizados.
+
+1. Testes Unitários
+	
+	Objetivo:
+		Verificar se componentes individuais funcionam corretamente.
+
+	Ferramentas:
+		Jest
+		React Testing Library
+		Exemplos de Testes Unitários:
+		Componente Header:
+		Verificar se o componente é renderizado corretamente.
+		Verificar se o logo do Netflix é exibido.
+		Componente Row:
+		Verificar se o título da linha é exibido corretamente.
+		Verificar se as imagens dos filmes são carregadas corretamente.
+		Componente Search:
+		Verificar se a barra de pesquisa é renderizada.
+		Verificar se a pesquisa retorna os resultados corretos ao ser submetida.
+
+2. Testes de Integração
+	Objetivo:
+		Verificar se diferentes componentes funcionam corretamente juntos.
+
+	Ferramentas:
+		Jest
+		React Testing Library
+		Exemplos de Testes de Integração:
+		Carregamento de Filmes:
+		Verificar se o componente Row carrega os filmes ao ser montado.
+		Verificar se a interação com a barra de pesquisa atualiza a lista de filmes corretamente.
+		Navegação entre Categorias:
+		Verificar se clicar em uma categoria diferente carrega os filmes correspondentes.
+
+3. Testes Funcionais
+	Objetivo:
+		Verificar se a aplicação funciona conforme o esperado do ponto de vista do usuário.
+
+	Ferramentas:
+		Cypress
+		Selenium
+		Exemplos de Testes Funcionais:
+		Busca de Filmes:
+		Verificar se a funcionalidade de busca retorna resultados corretos.
+		Navegação na Página Inicial:
+		Verificar se todas as seções (e.g., Populares, Lançamentos) são carregadas corretamente.
+		Reprodução de Vídeo:
+		Verificar se clicar em um filme inicia a reprodução do vídeo.
+		Scroll Horizontal:
+		Verificar se o scroll horizontal na lista de filmes funciona conforme o esperado.
+
+4. Testes de Interface do Usuário (UI)
+	Objetivo:
+		Verificar se a interface do usuário é renderizada corretamente e é responsiva.
+
+	Ferramentas:
+		Cypress
+		Selenium
+		Exemplos de Testes de UI:
+		Responsividade:
+		Verificar se a aplicação é renderizada corretamente em diferentes tamanhos de tela (e.g., desktop, tablet, mobile).
+		Estilos e Layout:
+		Verificar se os componentes estão estilizados conforme o design.
+5. Testes de Performance
+	Objetivo:
+		Garantir que a aplicação tem um desempenho aceitável.
+
+	Ferramentas:
+		Lighthouse (ferramenta integrada no Chrome DevTools)
+		WebPageTest
+		Exemplos de Testes de Performance:
+		Tempo de Carregamento da Página:
+		Verificar o tempo de carregamento inicial da página.
+		Tempo de Resposta da API:
+		Verificar o tempo de resposta das requisições para a API do TMDB.
+6. Testes de Segurança
+	Objetivo:
+		Identificar e corrigir vulnerabilidades de segurança.
+
+	Ferramentas:
+		OWASP ZAP
+		Snyk
+		Exemplos de Testes de Segurança:
+		Injeção de Código:
+		Verificar se a aplicação é vulnerável a ataques de injeção de código.
+		Autenticação e Autorização (se implementado):
+		Verificar se os mecanismos de autenticação e autorização são seguros.
+		Plano de Teste
+		Configuração do Ambiente de Teste:
+
+		Configurar as ferramentas de teste (Jest, Cypress, etc.).
+		Preparar o ambiente de desenvolvimento para executar os testes.
+		Execução de Testes Unitários:
+
+		Escrever e executar testes para todos os componentes individuais.
+		Execução de Testes de Integração:
+
+		Escrever e executar testes que envolvam múltiplos componentes.
+		Execução de Testes Funcionais:
+
+		Escrever e executar testes simulando interações do usuário.
+		Execução de Testes de UI:
+
+		Escrever e executar testes para garantir que a UI está correta e responsiva.
+		Execução de Testes de Performance:
+
+		Utilizar ferramentas para medir e otimizar a performance da aplicação.
+		Execução de Testes de Segurança:
+
+		Utilizar ferramentas para identificar e corrigir vulnerabilidades de segurança.
