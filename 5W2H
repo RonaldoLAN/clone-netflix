@@ -1,0 +1,46 @@
+5W2H clone-netflix
+5W2H para o Projeto Clone do Netflix
+
+1. What (O quê?)
+    Desenvolver um clone da interface do Netflix: O objetivo principal é criar uma aplicação web que simule a interface do usuário do Netflix, incluindo funcionalidades como visualização de filmes/séries, navegação por categorias, reprodução de vídeos e busca de conteúdo.
+
+2. Why (Por quê?)
+    Praticar habilidades de desenvolvimento front-end: Este projeto ajudará a melhorar as habilidades em React, CSS e JavaScript.
+    Entender o funcionamento de uma aplicação real: Aprender como uma aplicação de streaming de vídeo funciona, incluindo consumo de APIs, gerenciamento de estado e otimização de performance.
+    Portfólio: Adicionar um projeto robusto ao portfólio para demonstrar capacidades técnicas a potenciais empregadores ou clientes.
+
+3. Who (Quem?)
+    Desenvolvedor(es): Individual ou equipe de desenvolvedores front-end, especialmente aqueles com interesse em melhorar suas habilidades em React e desenvolvimento de interfaces de usuário.
+    Usuários finais: Pessoas interessadas em uma plataforma de streaming de vídeo com interface similar ao Netflix, embora seja uma simulação para fins de aprendizado.
+
+4. When (Quando?)
+    Início do Projeto: Imediato, após planejamento inicial e definição do escopo.
+    Duração Estimada: 1 a 3 meses, dependendo da complexidade das funcionalidades implementadas e da disponibilidade do(s) desenvolvedor(es).
+
+5. Where (Onde?)
+    Desenvolvimento: Remoto, utilizando ambientes de desenvolvimento local com ferramentas como VSCode, Git, GitHub, etc.
+    Hospedagem: A aplicação pode ser hospedada em plataformas como Netlify, Vercel ou GitHub Pages para demonstração.
+
+6. How (Como?)
+Ferramentas e Tecnologias:
+  Front-end: React, JavaScript, HTML, CSS.
+  APIs: TMDB (The Movie Database) para obter informações sobre filmes e séries.
+  Gerenciamento de estado: React Context API ou Redux (opcional).
+  Estilização: CSS Modules, Styled-components ou SASS.
+  Controle de versão: Git e GitHub.
+
+Passos do Desenvolvimento:
+
+  Configuração do ambiente de desenvolvimento.
+  Estruturação do projeto e criação de componentes principais (Header, Footer, Row, Banner, etc.).
+  Implementação da lógica para consumir a API do TMDB e exibir dados.
+  Adição de funcionalidades como busca, navegação por categorias e reprodução de vídeos.
+  Estilização e ajuste de responsividade.
+  Testes e otimizações.
+
+7. How Much (Quanto?)
+
+Custos:
+  Ferramentas de Desenvolvimento: Gratuitas (VSCode, Git).
+  APIs: A TMDB oferece um plano gratuito que deve ser suficiente para o desenvolvimento inicial.
+  Hospedagem: Pode ser gratuita utilizando serviços como Netlify ou Vercel.
