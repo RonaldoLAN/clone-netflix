@@ -35,7 +35,7 @@ Licença
   
   Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Contato
+Contato: ronaldolan2109@gmail.com
 
   Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato.
 
